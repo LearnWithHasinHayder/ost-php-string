@@ -24,9 +24,8 @@ $key = join('', $parts);
                 <p class="lg:w-2/3 mx-auto leading-relaxed text-base">generate Random String Key</p>
             </div>
             <div class="lg:w-1/2 md:w-2/3 mx-auto">
-                <div class="flex flex-wrap -m-2">
-
-                    <form action="/key.php" method="POST">
+                <form action="/key.php" method="POST">
+                    <div class="flex flex-wrap -m-2">
                         <div class="p-2 w-full">
                             <div class="relative">
 
@@ -37,15 +36,14 @@ $key = join('', $parts);
                         <div class="p-2 w-full">
                             <button type="submit" class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Generate Key</button>
                         </div>
-                    </form>
+                        <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                            <p class="leading-normal my-5">Ostad PHP & Laravel Course
+                            </p>
 
-                    <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                        <p class="leading-normal my-5">Ostad PHP & Laravel Course
-                        </p>
-
-                    </div>
-                </div>
+                        </div>
+                </form>
             </div>
+        </div>
         </div>
     </section>
 
